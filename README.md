@@ -43,7 +43,7 @@ But the dataset also possesses many limitations. I do not know the availability 
 
 ## Analysis
 I am looking at airplanes that suffered substantial damage or were completely destroyed as I consider that to be a serious accident. Being able to see how many people are uninjured in a serious accident helps show the safety/risk of an airplane's make. Of course, as I mentioned earlier, due to the limitations of the dataset, I can not say with certainty these will be the safest makes but only that these are the most highly represented makes. For now, we would recommend looking into this airplane makes further. 
-![make_uninjured.png](./images/make_uninjured.png)
+![makes_uninjured.png](./images/makes_uninjured.png)
 
 Again, I want to look at a serious accident when assessing the airplane model safety/risk. I already assessed the makes that will result in the most amount of uninjured passengers given enrichment of our data in the next steps. If I am able to see the safest makes based on non-injured passengers, then matching the corresponding models that have the least amount of fatalities and serious injuries will give us a make/model that has the best chance of passengers only suffering a minor injury or, preferably, no injury at all. But, as I have mentioned, due to the limitations of the dataset I cannot confirm this are the safest models but only that these are the most highly represented models. For now, I would recommend looking into this airplane makes and their corresponding models further. 
 ![model_severeinjuries.png](./images/model_severeinjuries.png)
