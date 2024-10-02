@@ -4,7 +4,7 @@
 
 **Author**: [Jack Locke](mailto:jackdlocke@gmail.com)
 
-![Cessna_172.jpg](./images/Cessna_172.jpg)
+![Cessna_172.jpg](../images/Cessna_172.jpg)
 
 ## Overview
 This project will be analyzing airplane safety based on factors of risk such as aircraft damage and passenger injury severity. My analysis will focus on recommending what airplane makes, models, and number of engines will be best suited for the stakeholder's business when compared to said factors of risk. The increased safety of the airplanes sold will improve company reliability resulting in increased sales/growth for the business. I will be using the CRISP-DM (Cross-industry standard process for data mining) methodology for my analytics model. 
@@ -15,16 +15,8 @@ This project will be analyzing airplane safety based on factors of risk such as 
 * 3. Data Preparation
     * a. Columns to drop
     * b. Narrowing dataset to small instructional airplanes
-        * Narrowing to airplanes
-        * Narrowing to instructional airplanes
-        * Narrowing to small instructional airplanes
     * c. Remaining missing/null values
     * d. Consolidate top makes and models
-        * Cessna makes/models dataframe
-        * Piper makes/models dataframe
-        * Beech makes/models dataframe
-        * Mooney makes/models dataframe
-        * Concatenate dataframes
 * 4. Analysis
     * a. Make vs. uninjured passengers
     * b. Model vs. serious and fatal injuries
@@ -51,13 +43,13 @@ But the dataset also possesses many limitations. I do not know the availability 
 
 ## Analysis
 I am looking at airplanes that suffered substantial damage or were completely destroyed as I consider that to be a serious accident. Being able to see how many people are uninjured in a serious accident helps show the safety/risk of an airplane's make. Of course, as I mentioned earlier, due to the limitations of the dataset, I can not say with certainty these will be the safest makes but only that these are the most highly represented makes. For now, we would recommend looking into this airplane makes further. 
-![make_uninjured.png](./images/make_uninjured.png)
+![make_uninjured.png](../images/make_uninjured.png)
 
 Again, I want to look at a serious accident when assessing the airplane model safety/risk. I already assessed the makes that will result in the most amount of uninjured passengers given enrichment of our data in the next steps. If I am able to see the safest makes based on non-injured passengers, then matching the corresponding models that have the least amount of fatalities and serious injuries will give us a make/model that has the best chance of passengers only suffering a minor injury or, preferably, no injury at all. But, as I have mentioned, due to the limitations of the dataset I cannot confirm this are the safest models but only that these are the most highly represented models. For now, I would recommend looking into this airplane makes and their corresponding models further. 
-![model_severeinjuries.png](./images/model_severeinjuries.png)
+![model_severeinjuries.png](../images/model_severeinjuries.png)
 
 I want to look at the total number of fatalities by engine number for small airplanes because this gives me the best indication of how to make the plane the safest operationally. If an engine has a failure, you are limited to your glide ratio and where you can land. Logically speaking, I assume that having two engines would be safer than one because in the event of an engine failure, you still have one engine that can extend your glide ratio. I recommend looking into these fatality numbers further in our next steps. 
-![engine_fatalities.png](./images/engine_fatalities.png)
+![engine_fatalities.png](../images/engine_fatalities.png)
 
 
 ## Conclusions
