@@ -98,3 +98,12 @@ For additional info, contact Jack Locke at [jackdlocke@gmail.com](mailto:jackdlo
 ├── presentation.pdf
 └── airplane_safety.ipynb
 ```
+
+## Sources
+
+Links to sources:
+https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses
+https://nbaa.org/business-aviation/business-aircraft/piston-engine-aircraft/
+https://stackoverflow.com/questions/43214978/how-to-display-custom-values-on-a-bar-plot
+https://stackoverflow.com/questions/65272126/seaborn-how-to-add-legend-to-seaborn-barplot
+https://stackoverflow.com/questions/49820549/labeling-horizontal-barplot-with-values-in-seaborn
