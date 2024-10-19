@@ -81,7 +81,9 @@ With the increased information, I can more confidently confirm which makes, mode
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](airplane_safety.ipynb) or review this [pres]
+See the full analysis in the [Jupyter Notebook](airplane_safety.ipynb) or review this [Jupyter Notebook](Airplane Safety Data Analysis.pdf)
+
+Interact with the data on tableau: https://public.tableau.com/app/profile/jack.locke6349/viz/AviationAccidentAnalysis_17277182695600/Dashboard1?publish=yes
 
 For additional info, contact Jack Locke at [jackdlocke@gmail.com](mailto:jackdlocke@gmail.com)
 
